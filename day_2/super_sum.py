@@ -4,6 +4,7 @@ def super_sum(A):
 		half every even number
 		doubles every odd number
 		and returns the sum of all
+		[2,3]
 	"""
 	total = 0
 
@@ -17,5 +18,7 @@ def super_sum(A):
 
 	return total
 
-print super_sum([2,3])
+
+
+
  
