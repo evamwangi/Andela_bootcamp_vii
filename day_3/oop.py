@@ -1,4 +1,5 @@
 from person import Person
+from kenya import Kenyan
 
 p = Person('Joe', 23)
 
@@ -26,4 +27,21 @@ for i in b:
 #print p2.people_count  # chain look_up
 
 print b
+
+
+#kenyan
+k = Kenyan('miguna', 20)
+
+k.probe(True)
+
+print "is {} corrupt? {}".format(k.name, k.is_corrupt())
+
+print k.say_hello()
+
+l= Kenyan('kamau', 30)
+print "is {} corrupt? {}".format(l.name, l.is_corrupt())
+print l.say_hello()
+
+
+
 
