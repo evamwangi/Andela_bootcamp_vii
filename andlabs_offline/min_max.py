@@ -1,42 +1,26 @@
 def min_max(A):
 
-	min_, max_ = A[0], A[0]
-
-	b = []
+	max_, min_ = A[0], A[0]
 
 	for i in A:
-
 		if i > max_:
-			max_ = i  
+			max_ = i
 
 		if i < min_:
 			min_ = i
 
-	if max_ != min_:
-
-		b.append(max_)
-		b.append(min_)
-
-	else:
-		b.append(A[i])
-
 	
 
+	if max_ != min_:
+		b = []
+		b.append(max_)
+		b.append(min_)
 
 	return b
 
 
+print min_max([10,20,746,908,543])
 
 
-	#return max_ - min_
 
 
-print min_max([12,4,57,3,7])
-
-print min_max([7,7,7,7])
-
-
-		
-
-
-	
