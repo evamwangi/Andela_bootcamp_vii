@@ -1,3 +1,6 @@
+"""
+global variables are not a good idea
+"""
 people = [
 
 	('joe', 78),
