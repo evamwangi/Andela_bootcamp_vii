@@ -10,15 +10,10 @@ def funky(a, b):
 	if type(a)==dict and type(b)==dict:
 		 a.update(b)
 		 return a
-
-
+		 
 	else:
 		return ("invalid inputs")
 		
-
-	
-
-
 print(funky(2,5))
 print(funky("eva","mwangi"))
 print(funky(4.87,89.9))
