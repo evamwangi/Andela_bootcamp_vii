@@ -9,12 +9,10 @@ def words(A):
 	come: 1
 	free: 1
 	'''	
-
 	a = A.split()
 	
 	# initialize an empty dictionary
 	dict1 = {}
-	 
 
 	for i in a:
 		if i.isdigit():
@@ -23,11 +21,7 @@ def words(A):
 		if i in dict1:
 			dict1[i] = a.count(i)
 		else:
-		    dict1[i] = 1
-
+		    dict1[i] = 1		    
 	return dict1
-
-
-# print words("he he went there he")
-# print words("he he went 2 he 2 yes no yes")
+	
 print words('testing 1 2 testing')

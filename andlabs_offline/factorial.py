@@ -1,5 +1,10 @@
 def factorial(number):
 
+	"""
+	returns the factorial of a number
+	
+	"""
+
 	 if number == 0:
 	 	return 1
 
