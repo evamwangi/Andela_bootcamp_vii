@@ -19,7 +19,7 @@ def solution(a):
         a //= 2
 
     return max_
-
+    
 print solution(15)
 print solution(150)
 print solution(20)
