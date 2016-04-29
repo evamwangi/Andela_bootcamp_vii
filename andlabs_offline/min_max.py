@@ -16,7 +16,7 @@ def min_max(A):
 		b.append(max_)
 		b.append(min_)
 
-	return b
+	return "{}, for {}".format(b,A)
 
 
 print min_max([10,20,746,908,543])

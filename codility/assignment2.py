@@ -7,8 +7,8 @@ def solution(a):
         a //= 2
 
     while a > 0:
-        rem = a % 2 #rem is remainder
-        if rem == 0:
+        remainder = a % 2 
+        if remainder == 0:
 
             current += 1
         else:
