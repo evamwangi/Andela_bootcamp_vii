@@ -16,10 +16,15 @@ def min_max(A):
 		b.append(max_)
 		b.append(min_)
 
-	return "{}, for {}".format(b,A)
+		return "{} for {}".format(b,A)
 
+	else:
+		a = []
+		a.append(len(A))
 
+		return a
 print min_max([10,20,746,908,543])
+print min_max([4,4,4,4,4])
 
 
 
